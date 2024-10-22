@@ -26,13 +26,4 @@ O back-end foi construído utilizando **Node.js** e **Express**, com uma estrutu
 ### Banco de Dados
 O banco de dados **SQLite** armazena as informações de login, cargo (admin, sale, customer) e outras permissões necessárias para a autenticação e funcionamento correto das rotas.
 
-## Capturas de Tela
 
-### Tela de Login
-![Tela de Login]("./src/assets/teladelogin.png.png")
-
-### Admin - Cadastrar/Excluir Clientes
-![Administrador, cadastrar/excluir clientes](./src/assets/cadastroVendaspng.png)
-
-### Sales - Excluir Clientes no Relatório de Vendas
-![Sales, sales/excluir clientes apenas no relatório de vendas](./src/assets/cadastroVendaspng.png)
