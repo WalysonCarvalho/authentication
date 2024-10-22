@@ -1,0 +1,38 @@
+# Sistema de Autenticação de Usuários
+
+Este projeto é uma aplicação full-stack para autenticação de usuários com base em permissões específicas (Admin, Customer, Sale), desenvolvida com um front-end simples, porém com um back-end bem estruturado.
+
+## Tecnologias Utilizadas
+- **React**: Utilizado para a construção do front-end da aplicação.
+- **Node.js**: Back-end da aplicação, responsável pelo gerenciamento da API.
+- **JavaScript**: Linguagem utilizada tanto no front-end quanto no back-end.
+- **SQLite**: Banco de dados utilizado para armazenamento de dados de usuários e permissões.
+- **Insomnia**: Ferramenta utilizada para testar e debugar as rotas da API.
+
+## Funcionalidades
+- **Autenticação de Usuários**: O sistema possui autenticação por rotas, onde cada tipo de usuário tem acesso a diferentes funcionalidades.
+  - **Admin (Administrador)**: Pode cadastrar e excluir produtos e relatórios de vendas.
+  - **Sale (Vendedor)**: Pode cadastrar e excluir relatórios de vendas.
+  - **Customer (Cliente)**: Apenas navega pela plataforma, sem acesso a funcionalidades de cadastro ou exclusão.
+
+## Estrutura do Projeto
+
+### Front-End
+O front-end foi desenvolvido utilizando **React**, com uma interface simples para facilitar o uso da plataforma. O principal objetivo é a interação do usuário com o sistema de autenticação e permissões, garantindo que cada tipo de usuário tenha acesso às funcionalidades apropriadas.
+
+### Back-End
+O back-end foi construído utilizando **Node.js** e **Express**, com uma estrutura bem definida que gerencia as rotas e permissões de cada tipo de usuário. O banco de dados **SQLite** é utilizado para armazenar os dados de autenticação e acesso dos usuários.
+
+### Banco de Dados
+O banco de dados **SQLite** armazena as informações de login, cargo (admin, sale, customer) e outras permissões necessárias para a autenticação e funcionamento correto das rotas.
+
+## Capturas de Tela
+
+### Tela de Login
+![Tela de Login](./src/assets/teladelogin.png)
+
+### Admin - Cadastrar/Excluir Clientes
+![Administrador, cadastrar/excluir clientes](./src/assets/cadastroVendaspng.png)
+
+### Sales - Excluir Clientes no Relatório de Vendas
+![Sales, sales/excluir clientes apenas no relatório de vendas](./src/assets/cadastroVendaspng.png)
