@@ -29,7 +29,7 @@ O banco de dados **SQLite** armazena as informações de login, cargo (admin, sa
 ## Capturas de Tela
 
 ### Tela de Login
-![Tela de Login](./src/assets/teladelogin.png)
+![Tela de Login]("./src/assets/teladelogin.png.png")
 
 ### Admin - Cadastrar/Excluir Clientes
 ![Administrador, cadastrar/excluir clientes](./src/assets/cadastroVendaspng.png)
